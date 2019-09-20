@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pp"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="333dp"
+                android:layout_height="62dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/text" />
+
+
+            <EditText
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="First Name"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:padding="12dp"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="4dp"
+                android:ems="10"
+                android:hint="Last Name"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:padding="12dp"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="E-mail"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:padding="12dp"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="4dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="12dp"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:baselineAligned="false"
+                android:drawablePadding="4dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="12dp"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:baselineAligned="false"
+                android:drawablePadding="4dp"
+                android:ems="10"
+                android:hint="Adress"
+                android:inputType="text"
+                android:maxLines="1"
+                android:padding="12dp"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:baselineAligned="false"
+                android:drawablePadding="4dp"
+                android:ems="10"
+                android:inputType="phone"
+                android:hint="Number"
+                android:maxLines="1"
+                android:padding="12dp"
+                android:textColorHint="#fff" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="25dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/submit"
+                    android:onClick="toDo"
+                    android:layout_width="163dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/bottom_2"
+                    android:clickable="true"
+                    android:padding="16dp"
+                    android:text="Submit"
+                    android:textAllCaps="false"
+                    android:textColor="#ffff"
+                    android:textSize="18sp" />
+                <Button
+                    android:id="@+id/back"
+                    android:layout_margin="8dp"
+                    android:layout_width="163dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bottom"
+                    android:clickable="true"
+                    android:padding="16dp"
+                    android:text="Back"
+                    android:textAllCaps="false"
+                    android:textColor="#1E88E5"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
